@@ -29,12 +29,10 @@ while read -r line; do
                     "red")
                         DEBUG "RED: $value"
                         if [[ "$value" -gt "MAX_RED" ]];then possible=1;break;fi
-                    
                     ;;
                     "green")
                         DEBUG "GREEN: $value"
                         if [[ "$value" -gt "MAX_GREEN" ]];then possible=1;break;fi
-                    
                     ;;
                     "blue")
                         DEBUG "BLUE: $value"
